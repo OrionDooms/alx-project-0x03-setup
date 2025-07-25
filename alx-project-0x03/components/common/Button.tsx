@@ -1,5 +1,5 @@
 /**components/common/Button.tsx*/
-import { type ButtonProps } from "@/interface";
+import { ButtonProps } from "@/interface";
 
 
 
