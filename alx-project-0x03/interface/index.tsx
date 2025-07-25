@@ -1,13 +1,13 @@
-interface PageRouteProps {
+export interface PageRouteProps {
   pageRoute: string
 }
-interface ButtonProps {
+export interface ButtonProps {
   buttonLabel: string
   buttonSize?: string
   buttonBackgroundColor?: 'red' | 'blue' | 'orange' | 'green'
   action?: () => void
 }
 
-interface LayoutProps {
+export interface LayoutProps {
   children: ReactNode;
 }
