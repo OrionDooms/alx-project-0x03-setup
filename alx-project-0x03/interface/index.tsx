@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface PageRouteProps {
   pageRoute: string
 }
@@ -9,5 +11,5 @@ export interface ButtonProps {
 }
 
 export interface LayoutProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
